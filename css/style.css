@@ -1,0 +1,15 @@
+.test {
+    background-color: #F00;
+    padding: 10px;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 10px
+
+}
+
+
+.wrong {
+    color: #F00;
+    font-weight: bold;
+    font-size: 30px
+}
