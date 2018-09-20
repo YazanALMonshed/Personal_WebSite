@@ -1,15 +1,49 @@
+/*
+body {
+    padding-top: 70px      in the future  we can use it
+}
+*/
+
 .test {
-    background-color: #F00;
-    padding: 10px;
+    background-color: #00F;
+    padding: 20px 0;
     color: #FFF;
     font-weight: bold;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    text-align: center
 
 }
 
+img {
+    width: 300px;
+    height: 300px;
+    
+}
+
+
+/*
 
 .wrong {
     color: #F00;
     font-weight: bold;
     font-size: 30px
 }
+
+
+.tmp {
+    background: #F00;
+    font-weight: bolder;
+
+
+}
+
+.tmp {
+  background-color: #F00;
+  font-size: bolder;
+  height: 100px;
+  width: 200px;
+  
+
+*/
+}
+s
