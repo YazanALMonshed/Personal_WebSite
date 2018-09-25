@@ -92,4 +92,39 @@ body {
     height: 22px;
     width: 22px;
     background-color: rgba(0,0,0,0.6);
+    
+}
+
+
+/*new section about me */
+
+.about {
+    
+    padding-top: 50px;
+    padding: 40px 0    
+    
+    
+}
+.about h1 {
+    font-weight: bold
+}
+
+.about h1 span {
+    color: #F00;
+    
+}
+
+.featuers {background: #DDD; padding: 40px 0}
+
+.featuers .feat p {
+    line-height: 1.6;
+    
+}
+
+
+.featuers .feat .fa-chess, .fa-people-carry, .fa-eye, .fa-cloud-download-alt {
+    
+    font-size: 60px;
+    color: #333;
+    padding-top: 40px;
 }
