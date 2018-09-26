@@ -6,7 +6,9 @@ body {
 
 
 
-/* Active Links */
+/*---------------- 
+Active Links 
+-----------------*/
 .navbar-inverse .navbar-nav>.active>a, 
 .navbar-inverse .navbar-nav>.active>a:focus, 
 .navbar-inverse .navbar-nav>.active>a:hover {
@@ -22,9 +24,9 @@ body {
     color: #F00
 }
 
-
-
-/* color Links*/
+/*--------------- 
+color Links
+-----------------*/
 .navbar-inverse .navbar-nav > li > a  {
     color: #BBB;
 
@@ -96,8 +98,9 @@ body {
 }
 
 
-/*new section about me */
-
+/*--------------------------
+here start section about me
+----------------------------*/
 .about {
     
     padding-top: 50px;
@@ -127,4 +130,162 @@ body {
     font-size: 60px;
     color: #333;
     padding-top: 40px;
+}
+/*------------------------
+hrer testimonails
+--------------------------*/
+
+.testimonails {
+    padding-top: 50px 0
+}
+
+.testimonails h2 {
+    font-weight: bold;
+    margin-bottom: 20px
+}
+
+
+.testimonails .carousel-inner .item h3  {
+    color: #F00;
+    font-weight: bold
+    
+} 
+
+
+
+.testimonails .carousel-indicators {
+    position: static;
+    margin: auto;
+    width: 100%
+}
+
+.testimonails .carousel-indicators li {
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    overflow:hidden;
+    margin: 10px;
+    transition: all 4000 ease-in
+}
+.testimonails .carousel-indicators li.active {
+    opacity:1;
+    background:none;
+    border: 2px solid #F00
+    
+}
+
+.testimonails .carousel-indicators li img {
+    max-width: 100%;
+    opacity: 0.5
+}
+
+/*--------------
+here priceing table
+-----------------*/
+
+.price-table {
+    background: #DDD;
+    padding: 40px
+    
+
+}
+
+.price-table h2 {
+    margin-top: 20px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    
+    
+}
+.price-table .price-box {
+    padding: 10px;
+    background: #FFF;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px 4px #999
+}
+.price-table .price-box ul {
+    line-height: 2.7;
+    font-weight: bold;
+
+}
+
+.price-table .price-box p {
+    width: 100px;
+    height: 100px;
+    background-color: #DDD;
+    border-radius: 50%;
+    font-size: 25px;
+    padding-top: 10px;
+    color: #b0a696;
+    -webkit-transition:all 3s;
+    -moz-transition:all 3s;
+    -o-transition:all 3s;
+    -ms-transition:all 3s;
+    transition: all 0.8s;
+    border: 2px solid #999
+
+}
+
+.price-table .price-box p:hover {
+    transform: rotate(180deg) scale(1.1,1.1);
+    -webkit-transform: rotate(180deg) scale(1.1,1.1);
+    -moz-transform: rotate(180deg) scale(1.1,1.1);
+    -o-transform: rotate(180deg) scale(1.1,1.1);
+    -ms-transform: rotate(180deg) scale(1.1,1.1);
+    
+}
+
+/*----------------------
+start our team here
+------------------------*/
+
+.our-team {
+    background: url('../img/04.jpeg') no-repeat fixed;
+    background-size: cover;
+    min-height:500px;
+    color: #FFF
+}
+
+.our-team .overlay {
+   
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+   
+}
+
+.our-team h2  {
+    padding-top: 30px;
+    padding-bottom: 40px
+
+}
+
+.our-team .team .fab {
+    font-size: 50px;
+    margin-left: 10px;
+    padding: 30px 0
+}
+
+.our-team .team .fab:hover {
+    opacity:0.4;
+    cursor: pointer;
+    transition: all 0.9s
+}
+
+
+/*-----------------------
+ start section subscirbe
+-------------------------*/
+.subscribe {
+    padding: 40px 0;
+    background: #DDD
+}
+
+
+.subscribe h1 {
+    color: #999;
+    letter-spacing: 20px
 }
