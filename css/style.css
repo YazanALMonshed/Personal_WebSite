@@ -264,7 +264,7 @@ start our team here
 }
 
 .our-team .team .fab {
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 10px;
     padding: 30px 0
 }
@@ -289,3 +289,114 @@ start our team here
     color: #999;
     letter-spacing: 20px
 }
+
+/*---------------------
+ section statustics here
+------------------------*/
+
+.statustics {
+    background: url("../img/04.jpeg")  no-repeat center center fixed;
+    background-size: cover;
+    min-height: 500px;
+    
+    
+    
+    
+}
+
+.statustics .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 500px;
+    color: #999;
+    padding-top: 50px;
+    
+}
+
+.statustics h2 {
+    margin-bottom: 70px
+}
+.statustics p {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    
+}
+
+.statustics span {
+    font-size: 25px
+}
+
+.statustics .data:hover {
+    color: #FFF;
+    transition: all 0.5s ease-in-out;
+    -weblit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+
+}
+
+/*-------------------
+our-skills
+----------------------*/
+.our-skills {
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+.our-skills h1 {
+    padding-bottom: 40px
+}
+
+.our-skills .progress {
+    height: 40px;
+    font-weight: bold;
+    
+}
+
+.our-skills .progress .progress-bar {
+    line-height: 44px;
+    font-size: 18px;
+    text-align:left;
+    text-indent: 22px
+}
+
+
+/*----------------------
+ concat-us
+-------------------------*/
+
+.concat-us {
+    
+    background: url('../img/08.jpeg') no-repeat fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height:500px;
+    color: #FFF;
+    
+}
+.concat-us p {
+    padding-top: 40px;
+    margin-bottom: 40px
+}
+
+.concat-us .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 500px;
+    padding: 50px
+
+}
+.concat-us textarea {
+    height: 108px;
+    margin-top: 15px
+}
+
+
+.concat-us input[type='text'],
+.concat-us textarea {
+    background-color: rgba(82,78,78,0.4);
+    color: #FFF;
+    border: none
+}
+
+
