@@ -387,8 +387,8 @@ our-skills
 
 }
 .concat-us textarea {
-    height: 108px;
-    margin-top: 15px
+    height: 105px;
+    
 }
 
 
@@ -444,6 +444,7 @@ footer h3 {
 footer .three-columns li {
     width: 50%;
     float: left;
+    font-size: 20px
 
 }
 
