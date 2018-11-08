@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Yazan Al Monshed <yazanmonshed@outlook.com>",
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.10.0",
@@ -15,6 +15,8 @@
     "gulp-uglify": "^3.0.1"
   },
   "dependencies": {
-    "gulp-image": "^4.3.0"
-  }
+    "gulp-image": "^4.3.0",
+    "pug": "^2.0.3"
+  },
+  "repository": "https://yazanalmonshed@bitbucket.org/yazanalmonshed/websitewithbootstrap.git"
 }

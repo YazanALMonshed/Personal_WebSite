@@ -1,0 +1,27 @@
+{
+  "name": "Project with bootstrap",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "package.json",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "keywords": [
+    "jquery",
+    "javascript",
+    "browser",
+    "library"
+  ],
+  "authors": [
+    "Yazan Al Monshed <yazanmonshed@outlook.com>"
+  ],
+  "description": "",
+  "homepage": "",
+  "dependencies": {
+    "fontawesome": "^5.5.0"
+  }
+}
