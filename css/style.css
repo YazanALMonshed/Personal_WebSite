@@ -1,7 +1,8 @@
 body {
     
-    height: 10000px;
-    padding-top: 50px
+    padding-top: 50px;
+    font-family: 'Changa', sans-serif;
+
 }
 
 
@@ -31,6 +32,17 @@ color Links
     color: #BBB;
 
 }
+
+
+/*
+
+@media (max-width: 768px) {
+    
+    .carousel {
+        display: none
+    }
+}
+*/
 
 .navbar-nav > li > a {
     
@@ -428,30 +440,73 @@ Our Clints
 /*---------------
 Footer
 ------------------------*/
+
+
+
+
 footer {
-    background-color: #444;
-    color: #AAA;
-    padding: 40px 0
+    
+    padding-top: 20px;
+    background-color: #AAA;
+    
+}
+
+
+footer a:hover {
+    color: #FFF
 }
 
 footer h3 {
-    color: #0895D1;
+    color: #037ef3;
+    font-size: 30px;
     letter-spacing: 1px;
-    margin: 20px
+    margin: 20px 0;
+    
 }
 
 
 footer .three-columns li {
-    width: 50%;
+    width: 33.33333%;
     float: left;
-    font-size: 20px
+    padding: 5px 0
+}
 
+footer .logo li {
+    width: 33.33333%;
+
+    float: left;
+}
+
+footer .logo .fab {
+    font-size: 50px;
+    padding-top: 30px;
+    color: #00F;
+    opacity: 70;
+    transition-duration: 2s;
+}
+footer .logo .fab:hover {
+    opacity: 1;
+    color: aliceblue;
+    transform: scale(1.3)
+    
 }
 
 
-footer .soical-list li {
-    width 50%;
-    float: left;
-    padding: 10px;
-    font-size:40px
+
+footer .img-thumbnail {
+    background:#999;
+    border: 2px solid #777
+}
+
+
+footer .copyright {
+    background-color: #3c3c3c;
+    padding: 20px 0;
+    color: #FFF;
+    font-weight: bold;
+}
+
+footer .copyright span {
+    color: #005082;
+    font-weight: bolder
 }
